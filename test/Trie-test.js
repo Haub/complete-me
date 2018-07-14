@@ -64,7 +64,7 @@ describe('Trie', () => {
   describe('SUGGEST', (prefix) => {
   	
   	it('should exist', () => {
-  		expect(trie).respondTo('suggest');
+  		expect(trie).respondTo('suggest');    
   		// console.log(JSON.stringify(trie, null, 4));
   	})
 
